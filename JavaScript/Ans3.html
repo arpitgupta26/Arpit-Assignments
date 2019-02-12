@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ans3</title>
+	<script type="text/javascript">
+		function calculate_radius(){
+			var radius = document.getElementById("radius").value;
+			console.log(radius);
+			var area = (3.14*radius*radius);
+			console.log(area);
+			document.getElementById("area").innerHTML=area;
+		}
+	</script>
+</head>
+<body>
+	Enter the radius of circle: <input id="radius" type="number">
+	<input type="button" onclick="calculate_radius()" value="Calculate Area">
+
+	<p id="area"></p>
+
+</body>
+</html>
