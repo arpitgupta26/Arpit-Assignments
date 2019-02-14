@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Ans12</title>
+    <script>
+        $(document).ready(function(){
+            $("div").click(function(){
+                alert("This is division");
+            })
+
+            $("li").click(function(e){
+                alert("This is list item");
+                e.stopPropagation();
+            })
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <ul>
+            <li> Item 1</li>
+            <li> Item 2</li>
+            <li> Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>

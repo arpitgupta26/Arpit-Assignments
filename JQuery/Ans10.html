@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Ans10</title>
+    <script>
+        $(document).ready(function(){
+            $(".dropbtn").hover(function(){
+               $("li").slideToggle("100");
+
+            })
+        })
+    </script>
+    <style>
+        
+        .dropdown-content ul li{
+            display: none;
+            list-style: none;
+        }
+
+        .dropdown-content a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li> <a href="#">Link 1</a> </li>
+                    <li> <a href="#">Link 2</a> </li>
+                    <li> <a href="#">Link 3</a> </li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>

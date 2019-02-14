@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Ans14</title>
+    <script>
+        $(document).ready(function(){
+            $("td").each(function(){
+                if($(this).html()>10){
+                    $(this).css("background-color","red");
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th
+                >
+        </tr>
+        <tr>
+            <td> 12</td>
+            <td> 5</td>
+        </tr>
+        <tr>
+            <td> 10</td>
+            <td> 25</td>
+        </tr>
+    </table>
+</body>
+</html>
