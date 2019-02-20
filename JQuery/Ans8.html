@@ -7,7 +7,7 @@
     <title>Ans8</title>
     <script>
             $(document).ready(function(){
-                $("p").on("click",function(){
+                $(document).on("click","p:last",function(){
                 $(this).after("<p>This is another paragraph</p>")
                 }
                 )

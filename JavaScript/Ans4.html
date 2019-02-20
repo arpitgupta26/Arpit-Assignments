@@ -11,14 +11,15 @@
 		var obj1 = {
 			name:"Arpit",
 			age:"24",
-			competency:"JVM"
+			competency:"JVM",
+			test: [1,2,3]
 		}
 
 		var obj2={};
 		for(prop in obj1){
 			obj2[prop]=obj1[prop];
 		}
-
+		obj1.test="abc"
 		console.log(obj1);
 		console.log(obj2);
 		obj1.name="Gagan";
