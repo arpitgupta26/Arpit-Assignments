@@ -1,0 +1,25 @@
+package com.company.Question10;
+
+import java.util.*;
+public class Barista {
+    private Queue<Order>orders=new LinkedList<>();
+    private Queue<Order>orderCompleted=new LinkedList<>();
+
+    public void placeInOrderQueue(Order order){
+        orders.add(order);
+    }
+
+    public Queue<Order> getOrderCompleted() {
+        return orderCompleted;
+    }
+    public void prepareOrder(){
+        //gets order from the queue and prepares it and removes order from the queue
+        for(Order popOrders : orders)
+        {
+            Order order=orders.remove();
+            order.setOrderStatus(true);
+            orderCompleted.add(order);
+        }
+    }
+
+}
