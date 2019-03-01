@@ -9,7 +9,7 @@ public class Question2 {
         //converting input string to character array
         char character[] = temp.toCharArray();
         //using bubble sort to arrange the character in the array
-        for (int i = 0; i < character.length; i++) {
+        for (int i = 0; i < character.length-1; i++) {
             for (int j = 0; j < character.length - i - 1; j++) {
                 if (character[j] > character[j + 1]) {
                     char tempvariable = character[j];
@@ -24,18 +24,6 @@ public class Question2 {
 
         //character array without whitespaces
         character=temp.toCharArray();
-
-        for (int i = 0; i < inputString.length(); i++) {
-            for (int j = 0; j < character.length; j++) {
-                char pickedUpCharacterFromString = inputString.charAt(i);
-                if(character[j]>=65 && character[j]<=90)
-                    continue;
-                if ((pickedUpCharacterFromString + "").equalsIgnoreCase(character[j] + "") && pickedUpCharacterFromString >= 65 && pickedUpCharacterFromString <= 90) {
-                    character[j] = (char) ((int) character[j] - 32);
-                    break;
-                }
-            }
-        }
         System.out.println("Sorted characters of a string");
         for (int i = 0; i < character.length; i++) {
             System.out.print(character[i]);

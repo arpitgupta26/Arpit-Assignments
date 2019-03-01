@@ -3,8 +3,8 @@ package com.company;
 import java.util.Scanner;
 
 public class Question7 {
-    int days,hours,minutes,seconds;
-    public void secondsToDays(int second)
+    long days,hours,minutes,seconds;
+    public void secondsToDays(long second)
     {
         System.out.println("Conversion of "+second+" seconds is as follows");
 
@@ -13,14 +13,14 @@ public class Question7 {
 
         //calculating number of hours
         second=second % (24*3600);
-        hours=second / (60);
+        hours=second / (3600);
 
         //calculating number of minutes
-        second=second % 60;
-        minutes=second % 60;
+        second=second % 3600;
+        minutes=second / 60;
 
         //calculating number of seconds
-        second=second/60;
+        second=second%60;
         seconds=second;
 
         System.out.println("Days "+days);
@@ -30,10 +30,10 @@ public class Question7 {
     }
 
     public static void main(String[] args) {
-        Question7 question7=new Question7();
+        Question7 obj=new Question7();
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the time in seconds");
-        int time=scanner.nextInt();
-        question7.secondsToDays(time);
+        long time=scanner.nextLong();
+        obj.secondsToDays(time);
     }
 }

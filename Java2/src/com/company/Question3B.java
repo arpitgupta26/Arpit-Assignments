@@ -3,8 +3,7 @@ package com.company;
 //NoClassDefFound error
 class ParentClass
 {
-    void display()
-    {
+    void display() {
         System.out.println("In Parent Class");
     }
 }

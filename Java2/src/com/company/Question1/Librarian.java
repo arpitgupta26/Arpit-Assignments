@@ -10,8 +10,7 @@ class Librarian implements User
         this.librarianName = name;
         this.librarianID = id;
     }
-
-    // Giving a body to interface method
+    
     public void getUser()
     {
         System.out.println("Name of the librarian " + librarianName);

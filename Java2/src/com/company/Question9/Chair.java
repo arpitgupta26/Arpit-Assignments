@@ -1,6 +1,5 @@
 package com.company.Question9;
 
-import com.company.Question9.Furniture;
 
 public class Chair extends Furniture {
     public Chair(String type) {

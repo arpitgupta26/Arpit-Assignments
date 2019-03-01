@@ -1,7 +1,5 @@
 package com.company.Question9;
 
-import com.company.Question9.Furniture;
-
 public class Table extends Furniture {
     @Override
     public boolean getStressTestStatus() {
