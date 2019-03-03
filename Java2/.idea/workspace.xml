@@ -3,29 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be388ecb-8823-409c-ab22-7320484768ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/CloneObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/CloneObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/ParentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/ParentClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question1/Librarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question1/Librarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question1/LibraryManagementSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question1/LibraryManagementSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question1/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question1/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question5B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question5B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question9/Chair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question9/Chair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Question9/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Question9/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/com/company/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/com/company/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question1/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question1/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question1/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question1/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question3B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question3B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question5B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question5B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question9/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question9/Chair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Question9/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Question9/Table.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +41,8 @@
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -81,7 +59,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Question10/Order.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Question10/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="68">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -188,7 +166,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="77" />
     <option name="y" value="47" />
     <option name="width" value="1279" />
@@ -218,20 +196,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Question10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Question13.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551416728956" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551438981671" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Test" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
@@ -360,17 +324,18 @@
       <workItem from="1551170729602" duration="4053000" />
       <workItem from="1551262166973" duration="39000" />
       <workItem from="1551326062472" duration="3149000" />
+      <workItem from="1551598066024" duration="2418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33828000" />
+    <option name="totallyTimeSpent" value="36246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27613726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28092578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -669,17 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-139">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Question10/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -692,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Question10/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
@@ -701,6 +655,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Question10/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
