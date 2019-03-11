@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <context:component-scan base-package="Answer10"/>
+
+    <bean id="database" class="Answer1_2.Database">
+        <property name="port" value="8080"/>
+        <property name="name" value="My databse"/>
+    </bean>
+
+    <bean id="tea" class="Answer3_4.Tea"/>
+    <bean
+            class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <bean id="teaRestaurant" class="Answer3_4.Restaurant">
+        <constructor-arg>
+            <bean id="expressTea" class="Answer3_4.ExpressTea"/>
+        </constructor-arg>
+
+        <property name="tea" ref="tea"/>
+    </bean>
+
+    <bean name="complexBean" class="Answer5.Complex">
+        <property name="list">
+            <list>
+                <value>Arpit</value>
+                <value>Gagan</value>
+                <value>Prateek</value>
+                <value>Lohit</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+                <value>4</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="1" value="One"/>
+                <entry key="2" value="Two"/>
+                <entry key="3" value="Three"/>
+                <entry key="4" value="Four"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="coffee" class="Answer6_9.Coffee"/>
+    <bean id="lemonade" class="Answer6_9.Lemonade"/>
+    <bean id="restaurant6" class="Answer6_9.Restaurant" autowire="constructor" scope="prototype">
+        <property name="coffee" ref="coffee"/>
+    </bean>
+
+
+</beans>
