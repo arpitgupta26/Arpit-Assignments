@@ -8,6 +8,5 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
         CarFactory factory = context.getBean(CarFactory.class);
         factory.showDetails();
-        
     }
 }

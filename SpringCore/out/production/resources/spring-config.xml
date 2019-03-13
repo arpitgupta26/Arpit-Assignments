@@ -13,8 +13,7 @@
     </bean>
 
     <bean id="tea" class="Answer3_4.Tea"/>
-    <bean
-            class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
     <bean id="teaRestaurant" class="Answer3_4.Restaurant">
         <constructor-arg>
             <bean id="expressTea" class="Answer3_4.ExpressTea"/>
@@ -52,7 +51,7 @@
 
     <bean id="coffee" class="Answer6_9.Coffee"/>
     <bean id="lemonade" class="Answer6_9.Lemonade"/>
-    <bean id="restaurant6" class="Answer6_9.Restaurant" autowire="constructor" scope="prototype">
+    <bean id="restaurant6" class="Answer6_9.Restaurant" autowire="byType" scope="prototype">
         <property name="coffee" ref="coffee"/>
     </bean>
 
