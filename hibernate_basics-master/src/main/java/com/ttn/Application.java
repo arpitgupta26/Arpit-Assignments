@@ -67,5 +67,7 @@ public class Application {
         session.save(book);
         session.save(book2);
         session.getTransaction().commit();
+        author3.setFirstName("Arpit");
+        session.save(author3);
     }
 }
