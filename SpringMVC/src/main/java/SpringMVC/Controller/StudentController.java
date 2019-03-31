@@ -3,6 +3,7 @@ package SpringMVC.Controller;
 import Entity.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -10,6 +11,11 @@ import java.util.Map;
 
 @Controller
 public class StudentController {
+
+    @InitBinder
+    public void initBinder(WebDataBinder webDataBinder){
+
+    }
     
     @RequestMapping("/")
     public ModelAndView index(){

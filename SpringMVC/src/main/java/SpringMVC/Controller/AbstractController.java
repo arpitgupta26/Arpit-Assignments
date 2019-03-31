@@ -9,7 +9,7 @@ public class AbstractController extends org.springframework.web.servlet.mvc.Abst
     @Override
     protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)
             throws Exception {
-        ModelAndView modelAndView = new ModelAndView("index");
+        ModelAndView modelAndView = new ModelAndView("student");
         return modelAndView;
     }
 }

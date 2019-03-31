@@ -16,9 +16,11 @@ public class StudentController {
     StudentService studentService;
     
     @GetMapping("/addStudent")
-    public void addStudent(Student student){
+    @ResponseBody
+    public String addStudent(Student student){
         studentService.addStudent(new Student(1,"Arpit", 24));
         studentService.addStudent(new Student(2,"Gagan", 24));
+        return "Student Added";
     }
     
     @GetMapping("/getStudent")

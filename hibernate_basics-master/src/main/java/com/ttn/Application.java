@@ -66,8 +66,11 @@ public class Application {
         session.save(author3);
         session.save(book);
         session.save(book2);
+        /*Author author = session.load(Author.class,new Integer(10));
+        System.out.println(author.getId());*/
         session.getTransaction().commit();
         author3.setFirstName("Arpit");
         session.save(author3);
+//        session.close();
     }
 }
